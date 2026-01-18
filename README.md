@@ -45,7 +45,7 @@ It is meant to be accurate, but if you find a bug please let me know!
 * Single-line comments (`//`)
 * Multi-line comments (`/* ... */`)
 * Comment density (percentage of comment lines relative to LOC)
-* Detection of tagged comments:
+* Detection of tagged comments (not counted separately):
 
   * `TODO`
   * `FIXME`
