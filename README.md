@@ -102,7 +102,7 @@ The script expects a filename as input (not stdin) in order to retrieve file met
 * **Not a compiler**: This tool does not attempt to fully parse C/C++.
 * **Heuristic-based**: Results are best-effort and may include false positives.
 * **State-machine driven**: Comment and string handling is implemented using simple state tracking.
-* **Unix mindset**: Small, focused, composable.
+* **Unix mindset**: Small, focused, composable. (Does what it specifies)
 
 ---
 
@@ -124,7 +124,7 @@ AWK was chosen deliberately to explore:
 * State-machine style parsing
 * The limits of regex-based analysis
 
-This project serves as a prototype for potential re-implementation in a systems language.
+This project serves as a prototype for potential re-implementation in a different language.
 
 ---
 
@@ -135,7 +135,7 @@ This project serves as a prototype for potential re-implementation in a systems 
 * Rewrite in C or Python for deeper analysis
 * Add features to make scat even better in AWK
 
-Built as a learning-focused systems tooling project.
+Built as a learning-focused system tooling project.
 ---
 
 ## License
